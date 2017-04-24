@@ -312,6 +312,33 @@ Materia.cpp.s:
 	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Materia.cpp.s
 .PHONY : Materia.cpp.s
 
+MovimientoInvalido.o: MovimientoInvalido.cpp.o
+
+.PHONY : MovimientoInvalido.o
+
+# target to build an object file
+MovimientoInvalido.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
+.PHONY : MovimientoInvalido.cpp.o
+
+MovimientoInvalido.i: MovimientoInvalido.cpp.i
+
+.PHONY : MovimientoInvalido.i
+
+# target to preprocess a source file
+MovimientoInvalido.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.i
+.PHONY : MovimientoInvalido.cpp.i
+
+MovimientoInvalido.s: MovimientoInvalido.cpp.s
+
+.PHONY : MovimientoInvalido.s
+
+# target to generate assembly for a file
+MovimientoInvalido.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.s
+.PHONY : MovimientoInvalido.cpp.s
+
 SIU.o: SIU.cpp.o
 
 .PHONY : SIU.o
@@ -423,6 +450,9 @@ help:
 	@echo "... Materia.o"
 	@echo "... Materia.i"
 	@echo "... Materia.s"
+	@echo "... MovimientoInvalido.o"
+	@echo "... MovimientoInvalido.i"
+	@echo "... MovimientoInvalido.s"
 	@echo "... SIU.o"
 	@echo "... SIU.i"
 	@echo "... SIU.s"

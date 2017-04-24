@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TP3_APP.dir/SIU.cpp.o"
   "CMakeFiles/TP3_APP.dir/Comando.cpp.o"
   "CMakeFiles/TP3_APP.dir/Admin.cpp.o"
+  "CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o"
   "TP3_APP.pdb"
   "TP3_APP"
 )

@@ -126,6 +126,12 @@
 		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Materia.h">
 			<Option target="TP3_APP"/>
 		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.h">
+			<Option target="TP3_APP"/>
+		</Unit>
 		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>

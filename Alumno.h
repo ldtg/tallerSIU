@@ -2,17 +2,21 @@
 #define TP3_APP_ALUMNO_H
 
 #include <vector>
+#include <memory>
 #include "Usuario.h"
 #include "IdMateria.h"
+#include "Materia.h"
 class Alumno : public Usuario {
  private:
-  std::vector<IdMateria> materiasInscripto;
+  std::vector<Materia*> materiasInscripto;
  public:
-  Alumno(std::string nombre, unsigned short num);
-  virtual void inscribir(IdUsuario usuarioaInscribir, IdMateria materia);
-  virtual void desInscribir(IdUsuario usuarioaDesinscribir, IdMateria
-  materia);
-  virtual std::string listarInscripciones();
+  explicit Alumno(int num, std::string nombre);
+  virtual void inscribir(Usuario &usuarioaInscribir,Materia *materia)
+  override;
+  virtual void desInscribir(Usuario &usuarioaDesinscribir,Materia
+  *materia) override;
+  virtual std::string listarInscripciones()const override;
+  virtual std::string toString() const;
 };
 
 #endif //TP3_APP_ALUMNO_H

@@ -6,15 +6,19 @@
 #include "IdUsuario.h"
 #include "Usuario.h"
 #include "IdMateria.h"
-class Docente : public Usuario{
+class Docente : public Usuario {
  private:
-  IdMateria materia;
+  Materia &materia;
   std::vector<IdUsuario> alumnosInscriptos;
+  void comprobarId(IdMateria id);
  public:
-  virtual std::string listarInscripciones();
-  virtual void inscribir(IdUsuario usuarioaInscribir, IdMateria materia);
-  virtual void desInscribir(IdUsuario usuarioaDesinscribir, IdMateria
-  materia);
+  Docente(int num, std::string nombre, Materia &materia);
+  virtual void inscribir(Usuario &usuarioaInscribir, Materia *materia)
+  override;
+  virtual void desInscribir(Usuario &usuarioaDesinscribir, Materia *
+  materia) override;
+  virtual std::string listarInscripciones() const override;
+  virtual std::string toString() const override;
 };
 
 #endif //TP3_APP_DOCENTE_H

@@ -5,13 +5,14 @@ enum TipoDeUsuario {alumno, docente, admin};
 class IdUsuario {
  private:
   TipoDeUsuario tipoDeUsuario;
-  std::string nombre;
-  unsigned short num;
+  int num;
  public:
-  explicit IdUsuario(std::string nombre, unsigned short num, TipoDeUsuario
-  tipoDeUsuario);
-  bool operator==(const IdUsuario& otro);
-  bool operator<(const IdUsuario &otro);
+  explicit IdUsuario(int num, TipoDeUsuario tipoDeUsuario);
+  std::string toString() const;
+  int getNum() const;
+  bool operator==(const IdUsuario& otro) const;
+  bool operator!=(const IdUsuario& otro) const;
+  bool operator<(const IdUsuario &otro) const;
 };
 
 #endif //TP3_APP_IDUSUARIO_H
