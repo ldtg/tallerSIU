@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tg/FIUBA/taller/tp3/TP3_APP/Materia.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/Materia.cpp.o"
   "/home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o"
   "/home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/SIU.cpp.o"
+  "/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/Socket.cpp.o"
+  "/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/SocketException.cpp.o"
   "/home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/Usuario.cpp.o"
   "/home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp" "/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir/main.cpp.o"
   )

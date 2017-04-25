@@ -1,4 +1,3 @@
-
 #include "SIU.h"
 #include "Admin.h"
 #include "MovimientoInvalido.h"
@@ -38,14 +37,14 @@ std::string SIU::desinscribir(IdUsuario idDesinscribidor,
   return "Desinscripción exitosa. \n";
 
 }
-std::string SIU::listarMaterias() {
+std::string SIU::listarMaterias() {//deberia ser ts
   std::stringstream aux;
   for (auto &&par : materias) {
     aux << par.second.toStringConVacantes();
   }
   return aux.str();
 }
-std::string SIU::listarInscripciones(IdUsuario usuario) {
+std::string SIU::listarInscripciones(IdUsuario usuario) {//deberia ser ts
   return usuarios.at(usuario)->listarInscripciones();
 }
 void SIU::parsearMaterias(std::string matf) {
@@ -59,7 +58,7 @@ void SIU::parsearMaterias(std::string matf) {
       tokens.push_back(aux);
   }
   for (int i = 0; i < tokens.size(); i += 5) {
-    IdUsuario idDocente(std::stoi(tokens[i + 3]), docente);
+    IdUsuario idDocente(std::stoi(tokens[i + 3]), DOCENTE);
     IdMateria id(std::stoi(tokens[i]), std::stoi(tokens[i + 1]));
     this->materias.emplace(id,
                            Materia(id,
@@ -84,7 +83,7 @@ void SIU::parsearUsuarios(std::string usrf) {
       this->usuarios.emplace(alumno->getId(), alumno);
     }
     if (tokens[i] == "docente") {
-      IdUsuario idDoc(std::stoi(tokens[i + 1]), docente);
+      IdUsuario idDoc(std::stoi(tokens[i + 1]), DOCENTE);
       IdMateria idMat = buscarId(idDoc);
       this->usuarios.emplace(idDoc, new Docente(std::stoi(tokens[i + 1]),
                                             tokens[i + 2], materias.at(idMat)));

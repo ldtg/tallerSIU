@@ -9,7 +9,6 @@
 class Docente : public Usuario {
  private:
   Materia &materia;
-  std::vector<IdUsuario> alumnosInscriptos;
   void comprobarId(IdMateria id);
  public:
   Docente(int num, std::string nombre, Materia &materia);

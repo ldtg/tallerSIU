@@ -152,6 +152,38 @@ Alumno.h
 Docente.h
 /home/tg/FIUBA/taller/tp3/TP3_APP/Docente.h
 
+/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp
+Socket.h
+/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h
+SocketException.h
+/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+cstring
+-
+sstream
+-
+
+/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h
+string
+-
+
+/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp
+SocketException.h
+/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h
+
+/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h
+string
+-
+exception
+-
+sstream
+-
+
 /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp
 Usuario.h
 /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.h
@@ -171,4 +203,6 @@ iostream
 -
 SIU.h
 /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.h
+Socket.h
+/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h
 

@@ -321,6 +321,54 @@ CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides: CMakeFiles/TP3_APP.dir
 CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
 
 
+CMakeFiles/TP3_APP.dir/Socket.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/Socket.cpp.o: ../Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TP3_APP.dir/Socket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Socket.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp
+
+CMakeFiles/TP3_APP.dir/Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Socket.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp > CMakeFiles/TP3_APP.dir/Socket.cpp.i
+
+CMakeFiles/TP3_APP.dir/Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Socket.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp -o CMakeFiles/TP3_APP.dir/Socket.cpp.s
+
+CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides: CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Socket.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o: ../SocketException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TP3_APP.dir/SocketException.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/SocketException.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/SocketException.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp > CMakeFiles/TP3_APP.dir/SocketException.cpp.i
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/SocketException.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp -o CMakeFiles/TP3_APP.dir/SocketException.cpp.s
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides: CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/SocketException.cpp.o
+
+
 # Object files for target TP3_APP
 TP3_APP_OBJECTS = \
 "CMakeFiles/TP3_APP.dir/main.cpp.o" \
@@ -333,7 +381,9 @@ TP3_APP_OBJECTS = \
 "CMakeFiles/TP3_APP.dir/SIU.cpp.o" \
 "CMakeFiles/TP3_APP.dir/Comando.cpp.o" \
 "CMakeFiles/TP3_APP.dir/Admin.cpp.o" \
-"CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o"
+"CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o" \
+"CMakeFiles/TP3_APP.dir/Socket.cpp.o" \
+"CMakeFiles/TP3_APP.dir/SocketException.cpp.o"
 
 # External object files for target TP3_APP
 TP3_APP_EXTERNAL_OBJECTS =
@@ -349,9 +399,11 @@ TP3_APP: CMakeFiles/TP3_APP.dir/SIU.cpp.o
 TP3_APP: CMakeFiles/TP3_APP.dir/Comando.cpp.o
 TP3_APP: CMakeFiles/TP3_APP.dir/Admin.cpp.o
 TP3_APP: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/Socket.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/SocketException.cpp.o
 TP3_APP: CMakeFiles/TP3_APP.dir/build.make
 TP3_APP: CMakeFiles/TP3_APP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable TP3_APP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable TP3_APP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP3_APP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -370,6 +422,8 @@ CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/SIU.cpp.o.requires
 CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Comando.cpp.o.requires
 CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Admin.cpp.o.requires
 CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
 
 .PHONY : CMakeFiles/TP3_APP.dir/requires
 

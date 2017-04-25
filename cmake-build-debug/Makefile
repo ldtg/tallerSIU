@@ -366,6 +366,60 @@ SIU.cpp.s:
 	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SIU.cpp.s
 .PHONY : SIU.cpp.s
 
+Socket.o: Socket.cpp.o
+
+.PHONY : Socket.o
+
+# target to build an object file
+Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.o
+.PHONY : Socket.cpp.o
+
+Socket.i: Socket.cpp.i
+
+.PHONY : Socket.i
+
+# target to preprocess a source file
+Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.i
+.PHONY : Socket.cpp.i
+
+Socket.s: Socket.cpp.s
+
+.PHONY : Socket.s
+
+# target to generate assembly for a file
+Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.s
+.PHONY : Socket.cpp.s
+
+SocketException.o: SocketException.cpp.o
+
+.PHONY : SocketException.o
+
+# target to build an object file
+SocketException.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.o
+.PHONY : SocketException.cpp.o
+
+SocketException.i: SocketException.cpp.i
+
+.PHONY : SocketException.i
+
+# target to preprocess a source file
+SocketException.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.i
+.PHONY : SocketException.cpp.i
+
+SocketException.s: SocketException.cpp.s
+
+.PHONY : SocketException.s
+
+# target to generate assembly for a file
+SocketException.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.s
+.PHONY : SocketException.cpp.s
+
 Usuario.o: Usuario.cpp.o
 
 .PHONY : Usuario.o
@@ -456,6 +510,12 @@ help:
 	@echo "... SIU.o"
 	@echo "... SIU.i"
 	@echo "... SIU.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
+	@echo "... SocketException.o"
+	@echo "... SocketException.i"
+	@echo "... SocketException.s"
 	@echo "... Usuario.o"
 	@echo "... Usuario.i"
 	@echo "... Usuario.s"

@@ -4,7 +4,7 @@
 #include "MovimientoInvalido.h"
 Alumno::Alumno(int num, std::string nombre) : Usuario(IdUsuario
                                                           (num,
-                                                           alumno),
+                                                           ALUMNO),
                                                       nombre) {}
 void Alumno::inscribir(Usuario &usuarioaInscribir, Materia *materia) {
   materia->inscribirAlumno(this->getId(), this->nombre);

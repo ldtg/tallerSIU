@@ -55,6 +55,13 @@ CMakeFiles/TP3_APP.dir/SIU.cpp.o: ../SIU.cpp
 CMakeFiles/TP3_APP.dir/SIU.cpp.o: ../SIU.h
 CMakeFiles/TP3_APP.dir/SIU.cpp.o: ../Usuario.h
 
+CMakeFiles/TP3_APP.dir/Socket.cpp.o: ../Socket.cpp
+CMakeFiles/TP3_APP.dir/Socket.cpp.o: ../Socket.h
+CMakeFiles/TP3_APP.dir/Socket.cpp.o: ../SocketException.h
+
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o: ../SocketException.cpp
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o: ../SocketException.h
+
 CMakeFiles/TP3_APP.dir/Usuario.cpp.o: ../IdMateria.h
 CMakeFiles/TP3_APP.dir/Usuario.cpp.o: ../IdUsuario.h
 CMakeFiles/TP3_APP.dir/Usuario.cpp.o: ../Materia.h
@@ -67,6 +74,7 @@ CMakeFiles/TP3_APP.dir/main.cpp.o: ../IdMateria.h
 CMakeFiles/TP3_APP.dir/main.cpp.o: ../IdUsuario.h
 CMakeFiles/TP3_APP.dir/main.cpp.o: ../Materia.h
 CMakeFiles/TP3_APP.dir/main.cpp.o: ../SIU.h
+CMakeFiles/TP3_APP.dir/main.cpp.o: ../Socket.h
 CMakeFiles/TP3_APP.dir/main.cpp.o: ../Usuario.h
 CMakeFiles/TP3_APP.dir/main.cpp.o: ../main.cpp
 

@@ -138,6 +138,18 @@
 		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SIU.h">
 			<Option target="TP3_APP"/>
 		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h">
+			<Option target="TP3_APP"/>
+		</Unit>
 		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>

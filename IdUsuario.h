@@ -1,7 +1,7 @@
 #ifndef TP3_APP_IDUSUARIO_H
 #define TP3_APP_IDUSUARIO_H
 #include <string>
-enum TipoDeUsuario {alumno, docente, admin};
+enum TipoDeUsuario {ALUMNO, DOCENTE, ADMIN};
 class IdUsuario {
  private:
   TipoDeUsuario tipoDeUsuario;

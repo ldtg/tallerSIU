@@ -13,11 +13,11 @@ bool IdUsuario::operator<(const IdUsuario &otro) const{
 }
 std::string IdUsuario::toString() const{
   std::string aux;
-  if(tipoDeUsuario==alumno)
+  if(tipoDeUsuario==ALUMNO)
     aux = "alumno " +  std::to_string(this->num);
-  if(tipoDeUsuario==docente)
+  if(tipoDeUsuario==DOCENTE)
     aux = "docente " +  std::to_string(this->num);
-  if(tipoDeUsuario==admin)
+  if(tipoDeUsuario==ADMIN)
     aux = "admin " +  std::to_string(this->num);
   return aux;
 }

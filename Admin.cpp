@@ -5,7 +5,7 @@ Admin::Admin(int num,
              std::string nombre,
              std::map<IdMateria, Materia> &materias,
              std::map<IdUsuario, Usuario*> &usuarios) : Usuario(IdUsuario(num,
-                                                                         admin
+                                                                         ADMIN
                                                                ),
                                                                nombre),
                                                        materias(materias),
@@ -24,7 +24,6 @@ std::string Admin::listarInscripciones() const {
     aux << par.second.toString();
     aux << par.second.listarAlumnosInscriptos();
   }
-  aux << std::endl;
   return aux.str();
 }
 std::string Admin::toString() const {

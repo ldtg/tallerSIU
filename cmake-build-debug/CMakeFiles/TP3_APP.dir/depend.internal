@@ -55,6 +55,13 @@ CMakeFiles/TP3_APP.dir/SIU.cpp.o
  /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp
  /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.h
+CMakeFiles/TP3_APP.dir/Socket.cpp.o
+ /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp
+ /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h
+ /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h
+CMakeFiles/TP3_APP.dir/SocketException.cpp.o
+ /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp
+ /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h
 CMakeFiles/TP3_APP.dir/Usuario.cpp.o
  /home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.h
@@ -68,5 +75,6 @@ CMakeFiles/TP3_APP.dir/main.cpp.o
  /home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/Materia.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.h
+ /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.h
  /home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp
