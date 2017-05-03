@@ -123,356 +123,707 @@ TP3_APP/fast:
 	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/build
 .PHONY : TP3_APP/fast
 
-Admin.o: Admin.cpp.o
+client_main.o: client_main.cpp.o
 
-.PHONY : Admin.o
-
-# target to build an object file
-Admin.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Admin.cpp.o
-.PHONY : Admin.cpp.o
-
-Admin.i: Admin.cpp.i
-
-.PHONY : Admin.i
-
-# target to preprocess a source file
-Admin.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Admin.cpp.i
-.PHONY : Admin.cpp.i
-
-Admin.s: Admin.cpp.s
-
-.PHONY : Admin.s
-
-# target to generate assembly for a file
-Admin.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Admin.cpp.s
-.PHONY : Admin.cpp.s
-
-Alumno.o: Alumno.cpp.o
-
-.PHONY : Alumno.o
+.PHONY : client_main.o
 
 # target to build an object file
-Alumno.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Alumno.cpp.o
-.PHONY : Alumno.cpp.o
+client_main.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_main.cpp.o
+.PHONY : client_main.cpp.o
 
-Alumno.i: Alumno.cpp.i
+client_main.i: client_main.cpp.i
 
-.PHONY : Alumno.i
+.PHONY : client_main.i
 
 # target to preprocess a source file
-Alumno.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Alumno.cpp.i
-.PHONY : Alumno.cpp.i
+client_main.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_main.cpp.i
+.PHONY : client_main.cpp.i
 
-Alumno.s: Alumno.cpp.s
+client_main.s: client_main.cpp.s
 
-.PHONY : Alumno.s
+.PHONY : client_main.s
 
 # target to generate assembly for a file
-Alumno.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Alumno.cpp.s
-.PHONY : Alumno.cpp.s
+client_main.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_main.cpp.s
+.PHONY : client_main.cpp.s
 
-Comando.o: Comando.cpp.o
+client_proxyServer.o: client_proxyServer.cpp.o
 
-.PHONY : Comando.o
+.PHONY : client_proxyServer.o
 
 # target to build an object file
-Comando.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Comando.cpp.o
-.PHONY : Comando.cpp.o
+client_proxyServer.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o
+.PHONY : client_proxyServer.cpp.o
 
-Comando.i: Comando.cpp.i
+client_proxyServer.i: client_proxyServer.cpp.i
 
-.PHONY : Comando.i
+.PHONY : client_proxyServer.i
 
 # target to preprocess a source file
-Comando.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Comando.cpp.i
-.PHONY : Comando.cpp.i
+client_proxyServer.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.i
+.PHONY : client_proxyServer.cpp.i
 
-Comando.s: Comando.cpp.s
+client_proxyServer.s: client_proxyServer.cpp.s
 
-.PHONY : Comando.s
+.PHONY : client_proxyServer.s
 
 # target to generate assembly for a file
-Comando.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Comando.cpp.s
-.PHONY : Comando.cpp.s
+client_proxyServer.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.s
+.PHONY : client_proxyServer.cpp.s
 
-Docente.o: Docente.cpp.o
+common_Socket.o: common_Socket.cpp.o
 
-.PHONY : Docente.o
+.PHONY : common_Socket.o
 
 # target to build an object file
-Docente.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Docente.cpp.o
-.PHONY : Docente.cpp.o
+common_Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_Socket.cpp.o
+.PHONY : common_Socket.cpp.o
 
-Docente.i: Docente.cpp.i
+common_Socket.i: common_Socket.cpp.i
 
-.PHONY : Docente.i
+.PHONY : common_Socket.i
 
 # target to preprocess a source file
-Docente.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Docente.cpp.i
-.PHONY : Docente.cpp.i
+common_Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_Socket.cpp.i
+.PHONY : common_Socket.cpp.i
 
-Docente.s: Docente.cpp.s
+common_Socket.s: common_Socket.cpp.s
 
-.PHONY : Docente.s
+.PHONY : common_Socket.s
 
 # target to generate assembly for a file
-Docente.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Docente.cpp.s
-.PHONY : Docente.cpp.s
+common_Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_Socket.cpp.s
+.PHONY : common_Socket.cpp.s
 
-IdMateria.o: IdMateria.cpp.o
+common_SocketException.o: common_SocketException.cpp.o
 
-.PHONY : IdMateria.o
+.PHONY : common_SocketException.o
 
 # target to build an object file
-IdMateria.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdMateria.cpp.o
-.PHONY : IdMateria.cpp.o
+common_SocketException.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o
+.PHONY : common_SocketException.cpp.o
 
-IdMateria.i: IdMateria.cpp.i
+common_SocketException.i: common_SocketException.cpp.i
 
-.PHONY : IdMateria.i
+.PHONY : common_SocketException.i
 
 # target to preprocess a source file
-IdMateria.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdMateria.cpp.i
-.PHONY : IdMateria.cpp.i
+common_SocketException.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_SocketException.cpp.i
+.PHONY : common_SocketException.cpp.i
 
-IdMateria.s: IdMateria.cpp.s
+common_SocketException.s: common_SocketException.cpp.s
 
-.PHONY : IdMateria.s
+.PHONY : common_SocketException.s
 
 # target to generate assembly for a file
-IdMateria.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdMateria.cpp.s
-.PHONY : IdMateria.cpp.s
+common_SocketException.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_SocketException.cpp.s
+.PHONY : common_SocketException.cpp.s
 
-IdUsuario.o: IdUsuario.cpp.o
+server_Admin.o: server_Admin.cpp.o
 
-.PHONY : IdUsuario.o
+.PHONY : server_Admin.o
 
 # target to build an object file
-IdUsuario.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o
-.PHONY : IdUsuario.cpp.o
+server_Admin.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Admin.cpp.o
+.PHONY : server_Admin.cpp.o
 
-IdUsuario.i: IdUsuario.cpp.i
+server_Admin.i: server_Admin.cpp.i
 
-.PHONY : IdUsuario.i
+.PHONY : server_Admin.i
 
 # target to preprocess a source file
-IdUsuario.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdUsuario.cpp.i
-.PHONY : IdUsuario.cpp.i
+server_Admin.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Admin.cpp.i
+.PHONY : server_Admin.cpp.i
 
-IdUsuario.s: IdUsuario.cpp.s
+server_Admin.s: server_Admin.cpp.s
 
-.PHONY : IdUsuario.s
+.PHONY : server_Admin.s
 
 # target to generate assembly for a file
-IdUsuario.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdUsuario.cpp.s
-.PHONY : IdUsuario.cpp.s
+server_Admin.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Admin.cpp.s
+.PHONY : server_Admin.cpp.s
 
-Materia.o: Materia.cpp.o
+server_Alumno.o: server_Alumno.cpp.o
 
-.PHONY : Materia.o
+.PHONY : server_Alumno.o
 
 # target to build an object file
-Materia.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Materia.cpp.o
-.PHONY : Materia.cpp.o
+server_Alumno.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o
+.PHONY : server_Alumno.cpp.o
 
-Materia.i: Materia.cpp.i
+server_Alumno.i: server_Alumno.cpp.i
 
-.PHONY : Materia.i
+.PHONY : server_Alumno.i
 
 # target to preprocess a source file
-Materia.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Materia.cpp.i
-.PHONY : Materia.cpp.i
+server_Alumno.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Alumno.cpp.i
+.PHONY : server_Alumno.cpp.i
 
-Materia.s: Materia.cpp.s
+server_Alumno.s: server_Alumno.cpp.s
 
-.PHONY : Materia.s
+.PHONY : server_Alumno.s
 
 # target to generate assembly for a file
-Materia.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Materia.cpp.s
-.PHONY : Materia.cpp.s
+server_Alumno.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Alumno.cpp.s
+.PHONY : server_Alumno.cpp.s
 
-MovimientoInvalido.o: MovimientoInvalido.cpp.o
+server_Comando.o: server_Comando.cpp.o
 
-.PHONY : MovimientoInvalido.o
+.PHONY : server_Comando.o
 
 # target to build an object file
-MovimientoInvalido.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
-.PHONY : MovimientoInvalido.cpp.o
+server_Comando.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Comando.cpp.o
+.PHONY : server_Comando.cpp.o
 
-MovimientoInvalido.i: MovimientoInvalido.cpp.i
+server_Comando.i: server_Comando.cpp.i
 
-.PHONY : MovimientoInvalido.i
+.PHONY : server_Comando.i
 
 # target to preprocess a source file
-MovimientoInvalido.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.i
-.PHONY : MovimientoInvalido.cpp.i
+server_Comando.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Comando.cpp.i
+.PHONY : server_Comando.cpp.i
 
-MovimientoInvalido.s: MovimientoInvalido.cpp.s
+server_Comando.s: server_Comando.cpp.s
 
-.PHONY : MovimientoInvalido.s
+.PHONY : server_Comando.s
 
 # target to generate assembly for a file
-MovimientoInvalido.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.s
-.PHONY : MovimientoInvalido.cpp.s
+server_Comando.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Comando.cpp.s
+.PHONY : server_Comando.cpp.s
 
-SIU.o: SIU.cpp.o
+server_ComandoDesinscribir.o: server_ComandoDesinscribir.cpp.o
 
-.PHONY : SIU.o
+.PHONY : server_ComandoDesinscribir.o
 
 # target to build an object file
-SIU.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SIU.cpp.o
-.PHONY : SIU.cpp.o
+server_ComandoDesinscribir.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o
+.PHONY : server_ComandoDesinscribir.cpp.o
 
-SIU.i: SIU.cpp.i
+server_ComandoDesinscribir.i: server_ComandoDesinscribir.cpp.i
 
-.PHONY : SIU.i
+.PHONY : server_ComandoDesinscribir.i
 
 # target to preprocess a source file
-SIU.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SIU.cpp.i
-.PHONY : SIU.cpp.i
+server_ComandoDesinscribir.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.i
+.PHONY : server_ComandoDesinscribir.cpp.i
 
-SIU.s: SIU.cpp.s
+server_ComandoDesinscribir.s: server_ComandoDesinscribir.cpp.s
 
-.PHONY : SIU.s
+.PHONY : server_ComandoDesinscribir.s
 
 # target to generate assembly for a file
-SIU.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SIU.cpp.s
-.PHONY : SIU.cpp.s
+server_ComandoDesinscribir.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.s
+.PHONY : server_ComandoDesinscribir.cpp.s
 
-Socket.o: Socket.cpp.o
+server_ComandoInscribir.o: server_ComandoInscribir.cpp.o
 
-.PHONY : Socket.o
+.PHONY : server_ComandoInscribir.o
 
 # target to build an object file
-Socket.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.o
-.PHONY : Socket.cpp.o
+server_ComandoInscribir.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o
+.PHONY : server_ComandoInscribir.cpp.o
 
-Socket.i: Socket.cpp.i
+server_ComandoInscribir.i: server_ComandoInscribir.cpp.i
 
-.PHONY : Socket.i
+.PHONY : server_ComandoInscribir.i
 
 # target to preprocess a source file
-Socket.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.i
-.PHONY : Socket.cpp.i
+server_ComandoInscribir.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.i
+.PHONY : server_ComandoInscribir.cpp.i
 
-Socket.s: Socket.cpp.s
+server_ComandoInscribir.s: server_ComandoInscribir.cpp.s
 
-.PHONY : Socket.s
+.PHONY : server_ComandoInscribir.s
 
 # target to generate assembly for a file
-Socket.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.s
-.PHONY : Socket.cpp.s
+server_ComandoInscribir.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.s
+.PHONY : server_ComandoInscribir.cpp.s
 
-SocketException.o: SocketException.cpp.o
+server_ComandoListarInscripciones.o: server_ComandoListarInscripciones.cpp.o
 
-.PHONY : SocketException.o
+.PHONY : server_ComandoListarInscripciones.o
 
 # target to build an object file
-SocketException.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.o
-.PHONY : SocketException.cpp.o
+server_ComandoListarInscripciones.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o
+.PHONY : server_ComandoListarInscripciones.cpp.o
 
-SocketException.i: SocketException.cpp.i
+server_ComandoListarInscripciones.i: server_ComandoListarInscripciones.cpp.i
 
-.PHONY : SocketException.i
+.PHONY : server_ComandoListarInscripciones.i
 
 # target to preprocess a source file
-SocketException.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.i
-.PHONY : SocketException.cpp.i
+server_ComandoListarInscripciones.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.i
+.PHONY : server_ComandoListarInscripciones.cpp.i
 
-SocketException.s: SocketException.cpp.s
+server_ComandoListarInscripciones.s: server_ComandoListarInscripciones.cpp.s
 
-.PHONY : SocketException.s
+.PHONY : server_ComandoListarInscripciones.s
 
 # target to generate assembly for a file
-SocketException.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.s
-.PHONY : SocketException.cpp.s
+server_ComandoListarInscripciones.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.s
+.PHONY : server_ComandoListarInscripciones.cpp.s
 
-Usuario.o: Usuario.cpp.o
+server_ComandoListarMaterias.o: server_ComandoListarMaterias.cpp.o
 
-.PHONY : Usuario.o
+.PHONY : server_ComandoListarMaterias.o
 
 # target to build an object file
-Usuario.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Usuario.cpp.o
-.PHONY : Usuario.cpp.o
+server_ComandoListarMaterias.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o
+.PHONY : server_ComandoListarMaterias.cpp.o
 
-Usuario.i: Usuario.cpp.i
+server_ComandoListarMaterias.i: server_ComandoListarMaterias.cpp.i
 
-.PHONY : Usuario.i
+.PHONY : server_ComandoListarMaterias.i
 
 # target to preprocess a source file
-Usuario.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Usuario.cpp.i
-.PHONY : Usuario.cpp.i
+server_ComandoListarMaterias.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.i
+.PHONY : server_ComandoListarMaterias.cpp.i
 
-Usuario.s: Usuario.cpp.s
+server_ComandoListarMaterias.s: server_ComandoListarMaterias.cpp.s
 
-.PHONY : Usuario.s
+.PHONY : server_ComandoListarMaterias.s
 
 # target to generate assembly for a file
-Usuario.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Usuario.cpp.s
-.PHONY : Usuario.cpp.s
+server_ComandoListarMaterias.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.s
+.PHONY : server_ComandoListarMaterias.cpp.s
 
-main.o: main.cpp.o
+server_Docente.o: server_Docente.cpp.o
 
-.PHONY : main.o
+.PHONY : server_Docente.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/main.cpp.o
-.PHONY : main.cpp.o
+server_Docente.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Docente.cpp.o
+.PHONY : server_Docente.cpp.o
 
-main.i: main.cpp.i
+server_Docente.i: server_Docente.cpp.i
 
-.PHONY : main.i
+.PHONY : server_Docente.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/main.cpp.i
-.PHONY : main.cpp.i
+server_Docente.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Docente.cpp.i
+.PHONY : server_Docente.cpp.i
 
-main.s: main.cpp.s
+server_Docente.s: server_Docente.cpp.s
 
-.PHONY : main.s
+.PHONY : server_Docente.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/main.cpp.s
-.PHONY : main.cpp.s
+server_Docente.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Docente.cpp.s
+.PHONY : server_Docente.cpp.s
+
+server_IdMateria.o: server_IdMateria.cpp.o
+
+.PHONY : server_IdMateria.o
+
+# target to build an object file
+server_IdMateria.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o
+.PHONY : server_IdMateria.cpp.o
+
+server_IdMateria.i: server_IdMateria.cpp.i
+
+.PHONY : server_IdMateria.i
+
+# target to preprocess a source file
+server_IdMateria.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.i
+.PHONY : server_IdMateria.cpp.i
+
+server_IdMateria.s: server_IdMateria.cpp.s
+
+.PHONY : server_IdMateria.s
+
+# target to generate assembly for a file
+server_IdMateria.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.s
+.PHONY : server_IdMateria.cpp.s
+
+server_IdUsuario.o: server_IdUsuario.cpp.o
+
+.PHONY : server_IdUsuario.o
+
+# target to build an object file
+server_IdUsuario.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o
+.PHONY : server_IdUsuario.cpp.o
+
+server_IdUsuario.i: server_IdUsuario.cpp.i
+
+.PHONY : server_IdUsuario.i
+
+# target to preprocess a source file
+server_IdUsuario.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.i
+.PHONY : server_IdUsuario.cpp.i
+
+server_IdUsuario.s: server_IdUsuario.cpp.s
+
+.PHONY : server_IdUsuario.s
+
+# target to generate assembly for a file
+server_IdUsuario.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.s
+.PHONY : server_IdUsuario.cpp.s
+
+server_Lock.o: server_Lock.cpp.o
+
+.PHONY : server_Lock.o
+
+# target to build an object file
+server_Lock.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Lock.cpp.o
+.PHONY : server_Lock.cpp.o
+
+server_Lock.i: server_Lock.cpp.i
+
+.PHONY : server_Lock.i
+
+# target to preprocess a source file
+server_Lock.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Lock.cpp.i
+.PHONY : server_Lock.cpp.i
+
+server_Lock.s: server_Lock.cpp.s
+
+.PHONY : server_Lock.s
+
+# target to generate assembly for a file
+server_Lock.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Lock.cpp.s
+.PHONY : server_Lock.cpp.s
+
+server_Logger.o: server_Logger.cpp.o
+
+.PHONY : server_Logger.o
+
+# target to build an object file
+server_Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Logger.cpp.o
+.PHONY : server_Logger.cpp.o
+
+server_Logger.i: server_Logger.cpp.i
+
+.PHONY : server_Logger.i
+
+# target to preprocess a source file
+server_Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Logger.cpp.i
+.PHONY : server_Logger.cpp.i
+
+server_Logger.s: server_Logger.cpp.s
+
+.PHONY : server_Logger.s
+
+# target to generate assembly for a file
+server_Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Logger.cpp.s
+.PHONY : server_Logger.cpp.s
+
+server_Materia.o: server_Materia.cpp.o
+
+.PHONY : server_Materia.o
+
+# target to build an object file
+server_Materia.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Materia.cpp.o
+.PHONY : server_Materia.cpp.o
+
+server_Materia.i: server_Materia.cpp.i
+
+.PHONY : server_Materia.i
+
+# target to preprocess a source file
+server_Materia.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Materia.cpp.i
+.PHONY : server_Materia.cpp.i
+
+server_Materia.s: server_Materia.cpp.s
+
+.PHONY : server_Materia.s
+
+# target to generate assembly for a file
+server_Materia.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Materia.cpp.s
+.PHONY : server_Materia.cpp.s
+
+server_MonitorSiu.o: server_MonitorSiu.cpp.o
+
+.PHONY : server_MonitorSiu.o
+
+# target to build an object file
+server_MonitorSiu.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o
+.PHONY : server_MonitorSiu.cpp.o
+
+server_MonitorSiu.i: server_MonitorSiu.cpp.i
+
+.PHONY : server_MonitorSiu.i
+
+# target to preprocess a source file
+server_MonitorSiu.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.i
+.PHONY : server_MonitorSiu.cpp.i
+
+server_MonitorSiu.s: server_MonitorSiu.cpp.s
+
+.PHONY : server_MonitorSiu.s
+
+# target to generate assembly for a file
+server_MonitorSiu.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.s
+.PHONY : server_MonitorSiu.cpp.s
+
+server_MovimientoInvalido.o: server_MovimientoInvalido.cpp.o
+
+.PHONY : server_MovimientoInvalido.o
+
+# target to build an object file
+server_MovimientoInvalido.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o
+.PHONY : server_MovimientoInvalido.cpp.o
+
+server_MovimientoInvalido.i: server_MovimientoInvalido.cpp.i
+
+.PHONY : server_MovimientoInvalido.i
+
+# target to preprocess a source file
+server_MovimientoInvalido.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.i
+.PHONY : server_MovimientoInvalido.cpp.i
+
+server_MovimientoInvalido.s: server_MovimientoInvalido.cpp.s
+
+.PHONY : server_MovimientoInvalido.s
+
+# target to generate assembly for a file
+server_MovimientoInvalido.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.s
+.PHONY : server_MovimientoInvalido.cpp.s
+
+server_ProxyCliente.o: server_ProxyCliente.cpp.o
+
+.PHONY : server_ProxyCliente.o
+
+# target to build an object file
+server_ProxyCliente.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o
+.PHONY : server_ProxyCliente.cpp.o
+
+server_ProxyCliente.i: server_ProxyCliente.cpp.i
+
+.PHONY : server_ProxyCliente.i
+
+# target to preprocess a source file
+server_ProxyCliente.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.i
+.PHONY : server_ProxyCliente.cpp.i
+
+server_ProxyCliente.s: server_ProxyCliente.cpp.s
+
+.PHONY : server_ProxyCliente.s
+
+# target to generate assembly for a file
+server_ProxyCliente.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.s
+.PHONY : server_ProxyCliente.cpp.s
+
+server_RealSIU.o: server_RealSIU.cpp.o
+
+.PHONY : server_RealSIU.o
+
+# target to build an object file
+server_RealSIU.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o
+.PHONY : server_RealSIU.cpp.o
+
+server_RealSIU.i: server_RealSIU.cpp.i
+
+.PHONY : server_RealSIU.i
+
+# target to preprocess a source file
+server_RealSIU.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.i
+.PHONY : server_RealSIU.cpp.i
+
+server_RealSIU.s: server_RealSIU.cpp.s
+
+.PHONY : server_RealSIU.s
+
+# target to generate assembly for a file
+server_RealSIU.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.s
+.PHONY : server_RealSIU.cpp.s
+
+server_SIUGuaramini.o: server_SIUGuaramini.cpp.o
+
+.PHONY : server_SIUGuaramini.o
+
+# target to build an object file
+server_SIUGuaramini.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o
+.PHONY : server_SIUGuaramini.cpp.o
+
+server_SIUGuaramini.i: server_SIUGuaramini.cpp.i
+
+.PHONY : server_SIUGuaramini.i
+
+# target to preprocess a source file
+server_SIUGuaramini.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.i
+.PHONY : server_SIUGuaramini.cpp.i
+
+server_SIUGuaramini.s: server_SIUGuaramini.cpp.s
+
+.PHONY : server_SIUGuaramini.s
+
+# target to generate assembly for a file
+server_SIUGuaramini.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.s
+.PHONY : server_SIUGuaramini.cpp.s
+
+server_Server.o: server_Server.cpp.o
+
+.PHONY : server_Server.o
+
+# target to build an object file
+server_Server.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Server.cpp.o
+.PHONY : server_Server.cpp.o
+
+server_Server.i: server_Server.cpp.i
+
+.PHONY : server_Server.i
+
+# target to preprocess a source file
+server_Server.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Server.cpp.i
+.PHONY : server_Server.cpp.i
+
+server_Server.s: server_Server.cpp.s
+
+.PHONY : server_Server.s
+
+# target to generate assembly for a file
+server_Server.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Server.cpp.s
+.PHONY : server_Server.cpp.s
+
+server_Thread.o: server_Thread.cpp.o
+
+.PHONY : server_Thread.o
+
+# target to build an object file
+server_Thread.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Thread.cpp.o
+.PHONY : server_Thread.cpp.o
+
+server_Thread.i: server_Thread.cpp.i
+
+.PHONY : server_Thread.i
+
+# target to preprocess a source file
+server_Thread.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Thread.cpp.i
+.PHONY : server_Thread.cpp.i
+
+server_Thread.s: server_Thread.cpp.s
+
+.PHONY : server_Thread.s
+
+# target to generate assembly for a file
+server_Thread.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Thread.cpp.s
+.PHONY : server_Thread.cpp.s
+
+server_Usuario.o: server_Usuario.cpp.o
+
+.PHONY : server_Usuario.o
+
+# target to build an object file
+server_Usuario.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o
+.PHONY : server_Usuario.cpp.o
+
+server_Usuario.i: server_Usuario.cpp.i
+
+.PHONY : server_Usuario.i
+
+# target to preprocess a source file
+server_Usuario.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Usuario.cpp.i
+.PHONY : server_Usuario.cpp.i
+
+server_Usuario.s: server_Usuario.cpp.s
+
+.PHONY : server_Usuario.s
+
+# target to generate assembly for a file
+server_Usuario.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Usuario.cpp.s
+.PHONY : server_Usuario.cpp.s
+
+server_main.o: server_main.cpp.o
+
+.PHONY : server_main.o
+
+# target to build an object file
+server_main.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_main.cpp.o
+.PHONY : server_main.cpp.o
+
+server_main.i: server_main.cpp.i
+
+.PHONY : server_main.i
+
+# target to preprocess a source file
+server_main.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_main.cpp.i
+.PHONY : server_main.cpp.i
+
+server_main.s: server_main.cpp.s
+
+.PHONY : server_main.s
+
+# target to generate assembly for a file
+server_main.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_main.cpp.s
+.PHONY : server_main.cpp.s
 
 # Help Target
 help:
@@ -483,45 +834,84 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TP3_APP"
-	@echo "... Admin.o"
-	@echo "... Admin.i"
-	@echo "... Admin.s"
-	@echo "... Alumno.o"
-	@echo "... Alumno.i"
-	@echo "... Alumno.s"
-	@echo "... Comando.o"
-	@echo "... Comando.i"
-	@echo "... Comando.s"
-	@echo "... Docente.o"
-	@echo "... Docente.i"
-	@echo "... Docente.s"
-	@echo "... IdMateria.o"
-	@echo "... IdMateria.i"
-	@echo "... IdMateria.s"
-	@echo "... IdUsuario.o"
-	@echo "... IdUsuario.i"
-	@echo "... IdUsuario.s"
-	@echo "... Materia.o"
-	@echo "... Materia.i"
-	@echo "... Materia.s"
-	@echo "... MovimientoInvalido.o"
-	@echo "... MovimientoInvalido.i"
-	@echo "... MovimientoInvalido.s"
-	@echo "... SIU.o"
-	@echo "... SIU.i"
-	@echo "... SIU.s"
-	@echo "... Socket.o"
-	@echo "... Socket.i"
-	@echo "... Socket.s"
-	@echo "... SocketException.o"
-	@echo "... SocketException.i"
-	@echo "... SocketException.s"
-	@echo "... Usuario.o"
-	@echo "... Usuario.i"
-	@echo "... Usuario.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... client_main.o"
+	@echo "... client_main.i"
+	@echo "... client_main.s"
+	@echo "... client_proxyServer.o"
+	@echo "... client_proxyServer.i"
+	@echo "... client_proxyServer.s"
+	@echo "... common_Socket.o"
+	@echo "... common_Socket.i"
+	@echo "... common_Socket.s"
+	@echo "... common_SocketException.o"
+	@echo "... common_SocketException.i"
+	@echo "... common_SocketException.s"
+	@echo "... server_Admin.o"
+	@echo "... server_Admin.i"
+	@echo "... server_Admin.s"
+	@echo "... server_Alumno.o"
+	@echo "... server_Alumno.i"
+	@echo "... server_Alumno.s"
+	@echo "... server_Comando.o"
+	@echo "... server_Comando.i"
+	@echo "... server_Comando.s"
+	@echo "... server_ComandoDesinscribir.o"
+	@echo "... server_ComandoDesinscribir.i"
+	@echo "... server_ComandoDesinscribir.s"
+	@echo "... server_ComandoInscribir.o"
+	@echo "... server_ComandoInscribir.i"
+	@echo "... server_ComandoInscribir.s"
+	@echo "... server_ComandoListarInscripciones.o"
+	@echo "... server_ComandoListarInscripciones.i"
+	@echo "... server_ComandoListarInscripciones.s"
+	@echo "... server_ComandoListarMaterias.o"
+	@echo "... server_ComandoListarMaterias.i"
+	@echo "... server_ComandoListarMaterias.s"
+	@echo "... server_Docente.o"
+	@echo "... server_Docente.i"
+	@echo "... server_Docente.s"
+	@echo "... server_IdMateria.o"
+	@echo "... server_IdMateria.i"
+	@echo "... server_IdMateria.s"
+	@echo "... server_IdUsuario.o"
+	@echo "... server_IdUsuario.i"
+	@echo "... server_IdUsuario.s"
+	@echo "... server_Lock.o"
+	@echo "... server_Lock.i"
+	@echo "... server_Lock.s"
+	@echo "... server_Logger.o"
+	@echo "... server_Logger.i"
+	@echo "... server_Logger.s"
+	@echo "... server_Materia.o"
+	@echo "... server_Materia.i"
+	@echo "... server_Materia.s"
+	@echo "... server_MonitorSiu.o"
+	@echo "... server_MonitorSiu.i"
+	@echo "... server_MonitorSiu.s"
+	@echo "... server_MovimientoInvalido.o"
+	@echo "... server_MovimientoInvalido.i"
+	@echo "... server_MovimientoInvalido.s"
+	@echo "... server_ProxyCliente.o"
+	@echo "... server_ProxyCliente.i"
+	@echo "... server_ProxyCliente.s"
+	@echo "... server_RealSIU.o"
+	@echo "... server_RealSIU.i"
+	@echo "... server_RealSIU.s"
+	@echo "... server_SIUGuaramini.o"
+	@echo "... server_SIUGuaramini.i"
+	@echo "... server_SIUGuaramini.s"
+	@echo "... server_Server.o"
+	@echo "... server_Server.i"
+	@echo "... server_Server.s"
+	@echo "... server_Thread.o"
+	@echo "... server_Thread.i"
+	@echo "... server_Thread.s"
+	@echo "... server_Usuario.o"
+	@echo "... server_Usuario.i"
+	@echo "... server_Usuario.s"
+	@echo "... server_main.o"
+	@echo "... server_main.i"
+	@echo "... server_main.s"
 .PHONY : help
 
 

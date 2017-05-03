@@ -2,6 +2,6 @@ cmake_minimum_required(VERSION 3.7)
 project(TP3_APP)
 
 set(CMAKE_CXX_STANDARD 11)
-
-set(SOURCE_FILES main.cpp IdMateria.cpp IdMateria.h IdUsuario.cpp IdUsuario.h Materia.cpp Materia.h Usuario.cpp Usuario.h Alumno.cpp Alumno.h Docente.cpp Docente.h SIU.cpp SIU.h Comando.cpp Comando.h Admin.cpp Admin.h MovimientoInvalido.cpp MovimientoInvalido.h Socket.cpp Socket.h SocketException.cpp SocketException.h)
-add_executable(TP3_APP ${SOURCE_FILES})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread -pedantic -Wall")
+set(SOURCE_FILES server_IdMateria.cpp server_IdMateria.h server_IdUsuario.cpp server_IdUsuario.h server_Materia.cpp server_Materia.h server_Usuario.cpp server_Usuario.h server_Alumno.cpp server_Alumno.h server_Docente.cpp server_Docente.h server_RealSIU.cpp server_RealSIU.h server_Admin.cpp server_Admin.h server_MovimientoInvalido.cpp server_MovimientoInvalido.h common_Socket.cpp common_Socket.h common_SocketException.cpp common_SocketException.h server_Lock.cpp server_Lock.h server_Thread.cpp server_Thread.h server_Server.cpp server_Server.h server_ProxyCliente.cpp server_ProxyCliente.h server_MonitorSiu.cpp server_MonitorSiu.h server_Comando.cpp server_Comando.h server_ComandoListarMaterias.cpp server_ComandoListarMaterias.h server_SIUGuaramini.cpp server_SIUGuaramini.h server_ComandoListarInscripciones.cpp server_ComandoListarInscripciones.h server_ComandoInscribir.cpp server_ComandoInscribir.h server_ComandoDesinscribir.cpp server_ComandoDesinscribir.h server_main.cpp client_main.cpp client_proxyServer.cpp client_proxyServer.h server_Logger.cpp server_Logger.h)
+add_executable(TP3_APP ${SOURCE_FILES} client_main.cpp)

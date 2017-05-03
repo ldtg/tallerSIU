@@ -57,353 +57,691 @@ include CMakeFiles/TP3_APP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP3_APP.dir/flags.make
 
-CMakeFiles/TP3_APP.dir/main.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TP3_APP.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/main.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o: ../server_IdMateria.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdMateria.cpp
 
-CMakeFiles/TP3_APP.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp > CMakeFiles/TP3_APP.dir/main.cpp.i
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdMateria.cpp > CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.i
 
-CMakeFiles/TP3_APP.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp -o CMakeFiles/TP3_APP.dir/main.cpp.s
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdMateria.cpp -o CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.s
 
-CMakeFiles/TP3_APP.dir/main.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/main.cpp.o.provides: CMakeFiles/TP3_APP.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/main.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/main.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/main.cpp.o
+CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.o: ../IdMateria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TP3_APP.dir/IdMateria.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/IdMateria.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.cpp
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o: ../server_IdUsuario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdUsuario.cpp
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/IdMateria.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.cpp > CMakeFiles/TP3_APP.dir/IdMateria.cpp.i
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdUsuario.cpp > CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.i
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/IdMateria.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.cpp -o CMakeFiles/TP3_APP.dir/IdMateria.cpp.s
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_IdUsuario.cpp -o CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.s
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.provides: CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/IdMateria.cpp.o
+CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o: ../IdUsuario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.cpp
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.o: ../server_Materia.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP3_APP.dir/server_Materia.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Materia.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Materia.cpp
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/IdUsuario.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.cpp > CMakeFiles/TP3_APP.dir/IdUsuario.cpp.i
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Materia.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Materia.cpp > CMakeFiles/TP3_APP.dir/server_Materia.cpp.i
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/IdUsuario.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.cpp -o CMakeFiles/TP3_APP.dir/IdUsuario.cpp.s
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Materia.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Materia.cpp -o CMakeFiles/TP3_APP.dir/server_Materia.cpp.s
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.provides: CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o
+CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Materia.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Materia.cpp.o: ../Materia.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP3_APP.dir/Materia.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Materia.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Materia.cpp
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o: ../server_Usuario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Usuario.cpp
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Materia.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Materia.cpp > CMakeFiles/TP3_APP.dir/Materia.cpp.i
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Usuario.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Usuario.cpp > CMakeFiles/TP3_APP.dir/server_Usuario.cpp.i
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Materia.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Materia.cpp -o CMakeFiles/TP3_APP.dir/Materia.cpp.s
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Usuario.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Usuario.cpp -o CMakeFiles/TP3_APP.dir/server_Usuario.cpp.s
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Materia.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.o.provides: CMakeFiles/TP3_APP.dir/Materia.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Materia.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Materia.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Materia.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Materia.cpp.o
+CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Usuario.cpp.o: ../Usuario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP3_APP.dir/Usuario.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Usuario.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o: ../server_Alumno.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Alumno.cpp
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Usuario.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp > CMakeFiles/TP3_APP.dir/Usuario.cpp.i
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Alumno.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Alumno.cpp > CMakeFiles/TP3_APP.dir/server_Alumno.cpp.i
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Usuario.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp -o CMakeFiles/TP3_APP.dir/Usuario.cpp.s
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Alumno.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Alumno.cpp -o CMakeFiles/TP3_APP.dir/server_Alumno.cpp.s
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Usuario.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.o.provides: CMakeFiles/TP3_APP.dir/Usuario.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Usuario.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Usuario.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Usuario.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Usuario.cpp.o
+CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Alumno.cpp.o: ../Alumno.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP3_APP.dir/Alumno.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Alumno.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Alumno.cpp
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.o: ../server_Docente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP3_APP.dir/server_Docente.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Docente.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Docente.cpp
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Alumno.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Alumno.cpp > CMakeFiles/TP3_APP.dir/Alumno.cpp.i
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Docente.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Docente.cpp > CMakeFiles/TP3_APP.dir/server_Docente.cpp.i
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Alumno.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Alumno.cpp -o CMakeFiles/TP3_APP.dir/Alumno.cpp.s
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Docente.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Docente.cpp -o CMakeFiles/TP3_APP.dir/server_Docente.cpp.s
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Alumno.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.o.provides: CMakeFiles/TP3_APP.dir/Alumno.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Alumno.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Alumno.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Alumno.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Alumno.cpp.o
+CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Docente.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Docente.cpp.o: ../Docente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP3_APP.dir/Docente.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Docente.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Docente.cpp
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o: ../server_RealSIU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_RealSIU.cpp
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Docente.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Docente.cpp > CMakeFiles/TP3_APP.dir/Docente.cpp.i
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_RealSIU.cpp > CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.i
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Docente.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Docente.cpp -o CMakeFiles/TP3_APP.dir/Docente.cpp.s
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_RealSIU.cpp -o CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.s
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Docente.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.o.provides: CMakeFiles/TP3_APP.dir/Docente.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Docente.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Docente.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Docente.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Docente.cpp.o
+CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/SIU.cpp.o: ../SIU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP3_APP.dir/SIU.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/SIU.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.o: ../server_Admin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP3_APP.dir/server_Admin.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Admin.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Admin.cpp
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/SIU.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp > CMakeFiles/TP3_APP.dir/SIU.cpp.i
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Admin.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Admin.cpp > CMakeFiles/TP3_APP.dir/server_Admin.cpp.i
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/SIU.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp -o CMakeFiles/TP3_APP.dir/SIU.cpp.s
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Admin.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Admin.cpp -o CMakeFiles/TP3_APP.dir/server_Admin.cpp.s
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/SIU.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.o.provides: CMakeFiles/TP3_APP.dir/SIU.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SIU.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/SIU.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/SIU.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/SIU.cpp.o
+CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Admin.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Comando.cpp.o: ../Comando.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TP3_APP.dir/Comando.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Comando.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Comando.cpp
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o: ../server_MovimientoInvalido.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_MovimientoInvalido.cpp
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Comando.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Comando.cpp > CMakeFiles/TP3_APP.dir/Comando.cpp.i
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_MovimientoInvalido.cpp > CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.i
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Comando.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Comando.cpp -o CMakeFiles/TP3_APP.dir/Comando.cpp.s
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_MovimientoInvalido.cpp -o CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.s
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Comando.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.o.provides: CMakeFiles/TP3_APP.dir/Comando.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Comando.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Comando.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Comando.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Comando.cpp.o
+CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Admin.cpp.o: ../Admin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TP3_APP.dir/Admin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Admin.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Admin.cpp
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.o: ../common_Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TP3_APP.dir/common_Socket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/common_Socket.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/common_Socket.cpp
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Admin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Admin.cpp > CMakeFiles/TP3_APP.dir/Admin.cpp.i
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/common_Socket.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/common_Socket.cpp > CMakeFiles/TP3_APP.dir/common_Socket.cpp.i
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Admin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Admin.cpp -o CMakeFiles/TP3_APP.dir/Admin.cpp.s
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/common_Socket.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/common_Socket.cpp -o CMakeFiles/TP3_APP.dir/common_Socket.cpp.s
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Admin.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.o.provides: CMakeFiles/TP3_APP.dir/Admin.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Admin.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Admin.cpp.o.provides
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.provides: CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Admin.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Admin.cpp.o
+CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/common_Socket.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o: ../MovimientoInvalido.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o: ../common_SocketException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/common_SocketException.cpp
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp > CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.i
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/common_SocketException.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/common_SocketException.cpp > CMakeFiles/TP3_APP.dir/common_SocketException.cpp.i
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp -o CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.s
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/common_SocketException.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/common_SocketException.cpp -o CMakeFiles/TP3_APP.dir/common_SocketException.cpp.s
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.provides: CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
+CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/Socket.cpp.o: ../Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TP3_APP.dir/Socket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/Socket.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.o: ../server_Lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TP3_APP.dir/server_Lock.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Lock.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Lock.cpp
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/Socket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp > CMakeFiles/TP3_APP.dir/Socket.cpp.i
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Lock.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Lock.cpp > CMakeFiles/TP3_APP.dir/server_Lock.cpp.i
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/Socket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp -o CMakeFiles/TP3_APP.dir/Socket.cpp.s
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Lock.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Lock.cpp -o CMakeFiles/TP3_APP.dir/server_Lock.cpp.s
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides: CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/Socket.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/Socket.cpp.o
+CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Lock.cpp.o
 
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
-CMakeFiles/TP3_APP.dir/SocketException.cpp.o: ../SocketException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TP3_APP.dir/SocketException.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/SocketException.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.o: ../server_Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TP3_APP.dir/server_Thread.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Thread.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Thread.cpp
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/SocketException.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp > CMakeFiles/TP3_APP.dir/SocketException.cpp.i
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Thread.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Thread.cpp > CMakeFiles/TP3_APP.dir/server_Thread.cpp.i
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/SocketException.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp -o CMakeFiles/TP3_APP.dir/SocketException.cpp.s
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Thread.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Thread.cpp -o CMakeFiles/TP3_APP.dir/server_Thread.cpp.s
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires:
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.requires:
 
-.PHONY : CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
+.PHONY : CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.requires
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides: CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides.build
-.PHONY : CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.provides
 
-CMakeFiles/TP3_APP.dir/SocketException.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/SocketException.cpp.o
+CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Thread.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Server.cpp.o: ../server_Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TP3_APP.dir/server_Server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Server.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Server.cpp
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Server.cpp > CMakeFiles/TP3_APP.dir/server_Server.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Server.cpp -o CMakeFiles/TP3_APP.dir/server_Server.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_Server.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Server.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Server.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_Server.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Server.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o: ../server_ProxyCliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_ProxyCliente.cpp
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_ProxyCliente.cpp > CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_ProxyCliente.cpp -o CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o: ../server_MonitorSiu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_MonitorSiu.cpp
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_MonitorSiu.cpp > CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_MonitorSiu.cpp -o CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.o: ../server_Comando.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TP3_APP.dir/server_Comando.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Comando.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Comando.cpp
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Comando.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Comando.cpp > CMakeFiles/TP3_APP.dir/server_Comando.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Comando.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Comando.cpp -o CMakeFiles/TP3_APP.dir/server_Comando.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Comando.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o: ../server_ComandoListarMaterias.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarMaterias.cpp
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarMaterias.cpp > CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarMaterias.cpp -o CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o: ../server_SIUGuaramini.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_SIUGuaramini.cpp
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_SIUGuaramini.cpp > CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_SIUGuaramini.cpp -o CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o: ../server_ComandoListarInscripciones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarInscripciones.cpp
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarInscripciones.cpp > CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarInscripciones.cpp -o CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o: ../server_ComandoInscribir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoInscribir.cpp
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoInscribir.cpp > CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoInscribir.cpp -o CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o: ../server_ComandoDesinscribir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoDesinscribir.cpp
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoDesinscribir.cpp > CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoDesinscribir.cpp -o CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_main.cpp.o: ../server_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TP3_APP.dir/server_main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_main.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_main.cpp
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_main.cpp > CMakeFiles/TP3_APP.dir/server_main.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_main.cpp -o CMakeFiles/TP3_APP.dir/server_main.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_main.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_main.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_main.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_main.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_main.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/client_main.cpp.o: ../client_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/TP3_APP.dir/client_main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/client_main.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/client_main.cpp
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/client_main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/client_main.cpp > CMakeFiles/TP3_APP.dir/client_main.cpp.i
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/client_main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/client_main.cpp -o CMakeFiles/TP3_APP.dir/client_main.cpp.s
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/client_main.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.o.provides: CMakeFiles/TP3_APP.dir/client_main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_main.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/client_main.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/client_main.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/client_main.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o: ../client_proxyServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/client_proxyServer.cpp
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/client_proxyServer.cpp > CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.i
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/client_proxyServer.cpp -o CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.s
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.provides: CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o
+
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.o: CMakeFiles/TP3_APP.dir/flags.make
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.o: ../server_Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/TP3_APP.dir/server_Logger.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3_APP.dir/server_Logger.cpp.o -c /home/tg/FIUBA/taller/tp3/TP3_APP/server_Logger.cpp
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3_APP.dir/server_Logger.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tg/FIUBA/taller/tp3/TP3_APP/server_Logger.cpp > CMakeFiles/TP3_APP.dir/server_Logger.cpp.i
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3_APP.dir/server_Logger.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tg/FIUBA/taller/tp3/TP3_APP/server_Logger.cpp -o CMakeFiles/TP3_APP.dir/server_Logger.cpp.s
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.requires:
+
+.PHONY : CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.requires
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.provides: CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TP3_APP.dir/build.make CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.provides.build
+.PHONY : CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.provides
+
+CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.provides.build: CMakeFiles/TP3_APP.dir/server_Logger.cpp.o
 
 
 # Object files for target TP3_APP
 TP3_APP_OBJECTS = \
-"CMakeFiles/TP3_APP.dir/main.cpp.o" \
-"CMakeFiles/TP3_APP.dir/IdMateria.cpp.o" \
-"CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Materia.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Usuario.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Alumno.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Docente.cpp.o" \
-"CMakeFiles/TP3_APP.dir/SIU.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Comando.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Admin.cpp.o" \
-"CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o" \
-"CMakeFiles/TP3_APP.dir/Socket.cpp.o" \
-"CMakeFiles/TP3_APP.dir/SocketException.cpp.o"
+"CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Materia.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Docente.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Admin.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o" \
+"CMakeFiles/TP3_APP.dir/common_Socket.cpp.o" \
+"CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Lock.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Thread.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Server.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Comando.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_main.cpp.o" \
+"CMakeFiles/TP3_APP.dir/client_main.cpp.o" \
+"CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o" \
+"CMakeFiles/TP3_APP.dir/server_Logger.cpp.o"
 
 # External object files for target TP3_APP
 TP3_APP_EXTERNAL_OBJECTS =
 
-TP3_APP: CMakeFiles/TP3_APP.dir/main.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/IdMateria.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Materia.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Usuario.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Alumno.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Docente.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/SIU.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Comando.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Admin.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/Socket.cpp.o
-TP3_APP: CMakeFiles/TP3_APP.dir/SocketException.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Materia.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Docente.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Admin.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/common_Socket.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Lock.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Thread.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Server.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Comando.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_main.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/client_main.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o
+TP3_APP: CMakeFiles/TP3_APP.dir/server_Logger.cpp.o
 TP3_APP: CMakeFiles/TP3_APP.dir/build.make
 TP3_APP: CMakeFiles/TP3_APP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable TP3_APP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable TP3_APP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP3_APP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -411,19 +749,32 @@ CMakeFiles/TP3_APP.dir/build: TP3_APP
 
 .PHONY : CMakeFiles/TP3_APP.dir/build
 
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/main.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/IdMateria.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/IdUsuario.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Materia.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Usuario.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Alumno.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Docente.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/SIU.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Comando.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Admin.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/MovimientoInvalido.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/Socket.cpp.o.requires
-CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/SocketException.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_IdMateria.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_IdUsuario.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Materia.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Usuario.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Alumno.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Docente.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_RealSIU.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Admin.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_MovimientoInvalido.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/common_Socket.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/common_SocketException.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Lock.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Thread.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Server.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_ProxyCliente.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_MonitorSiu.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Comando.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_ComandoListarMaterias.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_SIUGuaramini.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_ComandoListarInscripciones.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_ComandoInscribir.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_ComandoDesinscribir.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_main.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/client_main.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/client_proxyServer.cpp.o.requires
+CMakeFiles/TP3_APP.dir/requires: CMakeFiles/TP3_APP.dir/server_Logger.cpp.o.requires
 
 .PHONY : CMakeFiles/TP3_APP.dir/requires
 

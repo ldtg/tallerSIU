@@ -84,79 +84,154 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Admin.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/client_main.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Admin.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/client_proxyServer.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Alumno.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/client_proxyServer.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Alumno.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/common_Socket.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Comando.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/common_Socket.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Comando.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/common_SocketException.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Docente.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/common_SocketException.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Docente.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Admin.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Admin.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/IdMateria.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Alumno.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Alumno.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/IdUsuario.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Comando.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Materia.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Comando.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Materia.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoDesinscribir.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoDesinscribir.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/MovimientoInvalido.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoInscribir.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SIU.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoInscribir.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SIU.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarInscripciones.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarInscripciones.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Socket.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarMaterias.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ComandoListarMaterias.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/SocketException.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Docente.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Docente.h">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/Usuario.h">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_IdMateria.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
-		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/main.cpp">
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_IdMateria.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_IdUsuario.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_IdUsuario.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Lock.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Lock.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Logger.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Logger.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Materia.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Materia.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_MonitorSiu.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_MonitorSiu.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_MovimientoInvalido.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_MovimientoInvalido.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ProxyCliente.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_ProxyCliente.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_RealSIU.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_RealSIU.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_SIUGuaramini.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_SIUGuaramini.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Server.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Server.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Thread.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Thread.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Usuario.cpp">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_Usuario.h">
+			<Option target="TP3_APP"/>
+		</Unit>
+		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/server_main.cpp">
 			<Option target="TP3_APP"/>
 		</Unit>
 		<Unit filename="/home/tg/FIUBA/taller/tp3/TP3_APP/CMakeLists.txt">
