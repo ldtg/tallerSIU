@@ -1,4 +1,0 @@
-alumno	1	alice
-docente	57	bob
-docente	22	marge
-docente	2	Huergo

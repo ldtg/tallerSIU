@@ -1,3 +1,0 @@
-/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/tg/FIUBA/taller/tp3/TP3_APP/cmake-build-debug/CMakeFiles/TP3_APP.dir
